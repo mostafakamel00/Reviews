@@ -1,0 +1,80 @@
+body {
+  background-color: #ffe6e6; }
+
+main {
+  position: absolute;
+  top: 13%;
+  right: 38%; }
+  main .title h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #4a91a0;
+    font-size: 30px; }
+    main .title h2::after {
+      content: "";
+      display: block;
+      width: 83px;
+      height: 3px;
+      background-image: linear-gradient(to right, red, yellow);
+      margin: auto; }
+  main .reviews {
+    padding: 30px 10px;
+    background: floralwhite;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 2px dotted #f00; }
+    main .reviews .container-btn {
+      display: flex;
+      justify-content: space-between; }
+      main .reviews .container-btn button {
+        outline: none;
+        border: none;
+        background: none; }
+        main .reviews .container-btn button i {
+          font-size: 20px;
+          color: #2ac9aa;
+          cursor: pointer; }
+      main .reviews .container-btn .prev-button {
+        position: absolute;
+        top: 33%; }
+      main .reviews .container-btn .next-button {
+        position: absolute;
+        top: 33%;
+        right: 10px; }
+    main .reviews .image {
+      display: flex;
+      justify-content: center; }
+      main .reviews .image #person-img {
+        border-radius: 50%;
+        border: 2px dotted #00f; }
+    main .reviews .text-body {
+      text-align: center; }
+      main .reviews .text-body h4 {
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 20px;
+        color: #2ac9aa;
+        font-style: italic; }
+      main .reviews .text-body #job {
+        color: #4a91a0;
+        text-transform: uppercase;
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: bold; }
+      main .reviews .text-body #info {
+        line-height: 1.6;
+        font-style: italic;
+        font-weight: 500;
+        font-family: "Merriweather", serif; }
+    main .reviews .random {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+      main .reviews .random .random-button {
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid #4a91a0;
+        font-size: 16px;
+        color: #2ac9aa;
+        cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
